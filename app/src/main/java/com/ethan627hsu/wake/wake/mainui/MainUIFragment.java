@@ -1,10 +1,12 @@
-package com.ethan627hsu.wake.wake;
+package com.ethan627hsu.wake.wake.mainui;
 
 import android.app.Fragment;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import com.ethan627hsu.wake.wake.R;
 
 
 public class MainUIFragment extends Fragment {

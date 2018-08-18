@@ -4,6 +4,42 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/yellow_colorPrimaryLight"
     tools:context=".player.PlayerActivity">
 
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_player"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/iv_player"
+        android:layout_width="@dimen/player_image_icon"
+        android:layout_height="@dimen/player_image_icon"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        android:tint="@color/yellow_colorPrimaryDark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/vp_player"
+        tools:src="@drawable/ic_round_smartphone" />
+
+    <Button
+        android:id="@+id/btn_player"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginStart="24dp"
+        android:background="@drawable/player_round_return"
+        android:text="@string/player_return"
+        android:textSize="@dimen/player_button_text"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/vp_player"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/vp_player"
+        tools:visibility="visible" />
 </android.support.constraint.ConstraintLayout>

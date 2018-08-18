@@ -3,6 +3,7 @@
     <color name="yellow_colorPrimary">#ffeb3b</color>
     <color name="yellow_colorPrimaryDark">#c8b900</color>
     <color name="yellow_colorAccent">#ff1744</color>
+    <color name="yellow_colorPrimaryLight">#ffff72</color>
 
     <color name="red_colorPrimary">#ff1744</color>
     <color name="red_colorPrimaryDark">#c4001d</color>

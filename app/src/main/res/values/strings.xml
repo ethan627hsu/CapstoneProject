@@ -7,4 +7,5 @@
     <string name="vibration_short_name">Vibration</string>
     <string name="sound_short_name">Sound</string>
     <string name="routines_short_name">Routines</string>
+    <string name="player_return">RETURN TO ACTIVITIES</string>
 </resources>

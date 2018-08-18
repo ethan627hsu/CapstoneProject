@@ -7,4 +7,5 @@
     <color name="red_colorPrimary">#ff1744</color>
     <color name="red_colorPrimaryDark">#c4001d</color>
     <color name="red_colorAccent">#c4001d</color>
+    <color name="dark_main_menu_item_focused">#000000</color>
 </resources>

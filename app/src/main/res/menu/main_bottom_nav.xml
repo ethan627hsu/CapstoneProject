@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_screen"
+        android:icon="@drawable/ic_round_smartphone"
+        android:title="@string/screen_short_name" />
+
+    <item
+        android:id="@+id/action_vibration"
+        android:icon="@drawable/ic_round_vibration"
+        android:title="@string/vibration_short_name" />
+    <item
+        android:id="@+id/action_sound"
+        android:icon="@drawable/ic_round_volume_up"
+        android:title="@string/sound_short_name" />
+    <item
+        android:id="@+id/action_routine"
+        android:icon="@drawable/ic_round_accessibility_new"
+        android:title="@string/routines_short_name" />
+</menu>

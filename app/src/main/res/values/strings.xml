@@ -3,4 +3,8 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="screen_short_name">Screen</string>
+    <string name="vibration_short_name">Vibration</string>
+    <string name="sound_short_name">Sound</string>
+    <string name="routines_short_name">Routines</string>
 </resources>

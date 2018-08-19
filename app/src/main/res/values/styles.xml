@@ -8,9 +8,9 @@
     </style>
     <style name="AppTheme_Red" parent="Theme.AppCompat.Light.NoActionBar">
 
-        <item name="colorPrimary">@color/yellow_colorPrimary</item>
-        <item name="colorPrimaryDark">@color/yellow_colorPrimaryDark</item>
-        <item name="colorAccent">@color/yellow_colorAccent</item>
+        <item name="colorPrimary">@color/red_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/red_colorPrimaryDark</item>
+        <item name="colorAccent">@color/red_colorAccent</item>
     </style>
 
 </resources>

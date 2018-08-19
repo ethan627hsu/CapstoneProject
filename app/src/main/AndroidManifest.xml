@@ -18,7 +18,8 @@
         </activity>
         <activity android:name=".player.PlayerActivity" />
         <activity android:name=".editor.EditorActivity" />
-        <activity android:name=".editor.SubEditorActivity"></activity>
+        <activity android:name=".editor.SubEditorActivity"
+            android:theme="@style/AppTheme_Red"></activity>
     </application>
 
 </manifest>

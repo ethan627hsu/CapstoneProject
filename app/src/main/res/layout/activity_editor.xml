@@ -6,4 +6,74 @@
     android:layout_height="match_parent"
     tools:context=".editor.EditorActivity">
 
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/tb_editor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/yellow_colorPrimary"
+        android:elevation="@dimen/toolbar_height"
+        android:theme="@style/AppTheme_Yellow"
+        app:navigationIcon="@drawable/ic_round_close"
+        tools:title="New Activity" />
+
+    <ImageView
+        android:id="@+id/iv_editor"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginEnd="16dp"
+        android:elevation="4dp"
+        android:src="@drawable/ic_round_check"
+        app:layout_constraintBottom_toBottomOf="@id/tb_editor"
+        app:layout_constraintEnd_toEndOf="@id/tb_editor"
+        app:layout_constraintTop_toTopOf="@id/tb_editor" />
+
+    <ScrollView
+        android:id="@+id/sv_editor"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tb_editor">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <EditText
+                android:id="@+id/et_editor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/editor_content_side_margin"
+                android:layout_marginStart="@dimen/editor_content_side_margin"
+                android:layout_marginTop="@dimen/editor_content_side_margin"
+                android:backgroundTint="@color/yellow_colorAccent"
+                android:hint="@string/editor_text_name"
+                android:inputType="text"
+                android:theme="@style/AppTheme_Red"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_editor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/editor_content_side_margin"
+                android:layout_marginTop="@dimen/editor_name_content_distance"
+                android:textColor="@color/red_colorPrimaryDark"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/et_editor"
+                tools:text="Animations" />
+
+            <LinearLayout
+                android:id="@+id/ll_content_editor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/editor_content_side_margin"
+                android:layout_marginStart="@dimen/editor_content_side_margin"
+                android:layout_marginTop="24dp"
+                android:orientation="vertical"
+                app:layout_constraintTop_toBottomOf="@id/tv_editor" />
+        </android.support.constraint.ConstraintLayout>
+    </ScrollView>
 </android.support.constraint.ConstraintLayout>

@@ -8,4 +8,5 @@
     <string name="sound_short_name">Sound</string>
     <string name="routines_short_name">Routines</string>
     <string name="player_return">RETURN TO ACTIVITIES</string>
+    <string name="editor_text_name">Name</string>
 </resources>

@@ -4,6 +4,7 @@ public class WakeActivity {
 
     private ActivityType type;
     private String name;
+    private WakeSubActivity subActivity;
 
     public ActivityType getType() {
         return type;
@@ -25,10 +26,19 @@ public class WakeActivity {
 
     }
 
-    public WakeActivity(ActivityType type, String name) {
+    public WakeSubActivity getSubActivity() {
+        return subActivity;
+    }
+
+    public void setSubActivity(WakeSubActivity subActivity) {
+        this.subActivity = subActivity;
+    }
+
+    public WakeActivity(ActivityType type, String name, WakeSubActivity subActivity) {
 
         this.type = type;
         this.name = name;
+        this.subActivity = subActivity;
     }
 }
 

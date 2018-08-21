@@ -5,4 +5,7 @@
     <dimen name="player_image_icon">36dp</dimen>
     <dimen name="editor_name_content_distance">48dp</dimen>
     <dimen name="editor_content_side_margin">16dp</dimen>
+    <dimen name="main_card_height">56dp</dimen>
+    <dimen name="main_card_icon_size">40dp</dimen>
+    <dimen name="main_card_reorder_size">24dp</dimen>
 </resources>

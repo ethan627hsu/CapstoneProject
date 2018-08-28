@@ -9,4 +9,6 @@
     <color name="red_colorPrimaryDark">#c4001d</color>
     <color name="red_colorAccent">#c4001d</color>
     <color name="dark_main_menu_item_focused">#000000</color>
+    <color name="editor_card_reorder_color">#8a8a8a</color>
+    <color name="subeditor_screen_card_reorder_color">#8a8a8a</color>
 </resources>

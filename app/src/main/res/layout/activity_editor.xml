@@ -23,6 +23,7 @@
         android:layout_marginEnd="16dp"
         android:elevation="4dp"
         android:src="@drawable/ic_round_check"
+        android:tint="#000000"
         app:layout_constraintBottom_toBottomOf="@id/tb_editor"
         app:layout_constraintEnd_toEndOf="@id/tb_editor"
         app:layout_constraintTop_toTopOf="@id/tb_editor" />

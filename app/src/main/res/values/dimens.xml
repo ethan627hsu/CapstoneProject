@@ -8,4 +8,8 @@
     <dimen name="main_card_height">56dp</dimen>
     <dimen name="main_card_icon_size">40dp</dimen>
     <dimen name="main_card_reorder_size">24dp</dimen>
+    <dimen name="editor_card_icon_size">24dp</dimen>
+    <dimen name="editor_card_height">56dp</dimen>
+    <dimen name="subeditor_screen_card_height">56dp</dimen>
+    <dimen name="subeditor_card_icon_size">24dp</dimen>
 </resources>
